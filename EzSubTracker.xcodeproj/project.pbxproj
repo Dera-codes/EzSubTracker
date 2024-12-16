@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F5700E2D10471700B73B9D /* EzSubTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5700D2D10471700B73B9D /* EzSubTrackerApp.swift */; };
+		04F570102D10471700B73B9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5700F2D10471700B73B9D /* ContentView.swift */; };
+		04F570122D10471A00B73B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F570112D10471A00B73B9D /* Assets.xcassets */; };
+		04F570152D10471A00B73B9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F570142D10471A00B73B9D /* Preview Assets.xcassets */; };
+		04F570172D10471A00B73B9D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F570162D10471A00B73B9D /* Persistence.swift */; };
+		04F5701A2D10471A00B73B9D /* EzSubTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F570182D10471A00B73B9D /* EzSubTracker.xcdatamodeld */; };
+		04F570242D10471B00B73B9D /* EzSubTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F570232D10471B00B73B9D /* EzSubTrackerTests.swift */; };
+		04F5702E2D10471B00B73B9D /* EzSubTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5702D2D10471B00B73B9D /* EzSubTrackerUITests.swift */; };
+		04F570302D10471B00B73B9D /* EzSubTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F5702F2D10471B00B73B9D /* EzSubTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F570202D10471B00B73B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F570022D10471700B73B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F570092D10471700B73B9D;
+			remoteInfo = EzSubTracker;
+		};
+		04F5702A2D10471B00B73B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F570022D10471700B73B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F570092D10471700B73B9D;
+			remoteInfo = EzSubTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F5700A2D10471700B73B9D /* EzSubTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzSubTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5700D2D10471700B73B9D /* EzSubTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzSubTrackerApp.swift; sourceTree = "<group>"; };
+		04F5700F2D10471700B73B9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04F570112D10471A00B73B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F570142D10471A00B73B9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F570162D10471A00B73B9D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		04F570192D10471A00B73B9D /* EzSubTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EzSubTracker.xcdatamodel; sourceTree = "<group>"; };
+		04F5701F2D10471B00B73B9D /* EzSubTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzSubTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F570232D10471B00B73B9D /* EzSubTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzSubTrackerTests.swift; sourceTree = "<group>"; };
+		04F570292D10471B00B73B9D /* EzSubTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzSubTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F5702D2D10471B00B73B9D /* EzSubTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzSubTrackerUITests.swift; sourceTree = "<group>"; };
+		04F5702F2D10471B00B73B9D /* EzSubTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzSubTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F570072D10471700B73B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F5701C2D10471B00B73B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F570262D10471B00B73B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F570012D10471700B73B9D = {
+			isa = PBXGroup;
+			children = (
+				04F5700C2D10471700B73B9D /* EzSubTracker */,
+				04F570222D10471B00B73B9D /* EzSubTrackerTests */,
+				04F5702C2D10471B00B73B9D /* EzSubTrackerUITests */,
+				04F5700B2D10471700B73B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F5700B2D10471700B73B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F5700A2D10471700B73B9D /* EzSubTracker.app */,
+				04F5701F2D10471B00B73B9D /* EzSubTrackerTests.xctest */,
+				04F570292D10471B00B73B9D /* EzSubTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F5700C2D10471700B73B9D /* EzSubTracker */ = {
+			isa = PBXGroup;
+			children = (
+				04F5700D2D10471700B73B9D /* EzSubTrackerApp.swift */,
+				04F5700F2D10471700B73B9D /* ContentView.swift */,
+				04F570112D10471A00B73B9D /* Assets.xcassets */,
+				04F570162D10471A00B73B9D /* Persistence.swift */,
+				04F570182D10471A00B73B9D /* EzSubTracker.xcdatamodeld */,
+				04F570132D10471A00B73B9D /* Preview Content */,
+			);
+			path = EzSubTracker;
+			sourceTree = "<group>";
+		};
+		04F570132D10471A00B73B9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04F570142D10471A00B73B9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04F570222D10471B00B73B9D /* EzSubTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F570232D10471B00B73B9D /* EzSubTrackerTests.swift */,
+			);
+			path = EzSubTrackerTests;
+			sourceTree = "<group>";
+		};
+		04F5702C2D10471B00B73B9D /* EzSubTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F5702D2D10471B00B73B9D /* EzSubTrackerUITests.swift */,
+				04F5702F2D10471B00B73B9D /* EzSubTrackerUITestsLaunchTests.swift */,
+			);
+			path = EzSubTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F570092D10471700B73B9D /* EzSubTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F570332D10471B00B73B9D /* Build configuration list for PBXNativeTarget "EzSubTracker" */;
+			buildPhases = (
+				04F570062D10471700B73B9D /* Sources */,
+				04F570072D10471700B73B9D /* Frameworks */,
+				04F570082D10471700B73B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzSubTracker;
+			productName = EzSubTracker;
+			productReference = 04F5700A2D10471700B73B9D /* EzSubTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F5701E2D10471B00B73B9D /* EzSubTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F570362D10471B00B73B9D /* Build configuration list for PBXNativeTarget "EzSubTrackerTests" */;
+			buildPhases = (
+				04F5701B2D10471B00B73B9D /* Sources */,
+				04F5701C2D10471B00B73B9D /* Frameworks */,
+				04F5701D2D10471B00B73B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F570212D10471B00B73B9D /* PBXTargetDependency */,
+			);
+			name = EzSubTrackerTests;
+			productName = EzSubTrackerTests;
+			productReference = 04F5701F2D10471B00B73B9D /* EzSubTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F570282D10471B00B73B9D /* EzSubTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F570392D10471B00B73B9D /* Build configuration list for PBXNativeTarget "EzSubTrackerUITests" */;
+			buildPhases = (
+				04F570252D10471B00B73B9D /* Sources */,
+				04F570262D10471B00B73B9D /* Frameworks */,
+				04F570272D10471B00B73B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F5702B2D10471B00B73B9D /* PBXTargetDependency */,
+			);
+			name = EzSubTrackerUITests;
+			productName = EzSubTrackerUITests;
+			productReference = 04F570292D10471B00B73B9D /* EzSubTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F570022D10471700B73B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					04F570092D10471700B73B9D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					04F5701E2D10471B00B73B9D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 04F570092D10471700B73B9D;
+					};
+					04F570282D10471B00B73B9D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 04F570092D10471700B73B9D;
+					};
+				};
+			};
+			buildConfigurationList = 04F570052D10471700B73B9D /* Build configuration list for PBXProject "EzSubTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F570012D10471700B73B9D;
+			productRefGroup = 04F5700B2D10471700B73B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F570092D10471700B73B9D /* EzSubTracker */,
+				04F5701E2D10471B00B73B9D /* EzSubTrackerTests */,
+				04F570282D10471B00B73B9D /* EzSubTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F570082D10471700B73B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F570152D10471A00B73B9D /* Preview Assets.xcassets in Resources */,
+				04F570122D10471A00B73B9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F5701D2D10471B00B73B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F570272D10471B00B73B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F570062D10471700B73B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F570172D10471A00B73B9D /* Persistence.swift in Sources */,
+				04F570102D10471700B73B9D /* ContentView.swift in Sources */,
+				04F5701A2D10471A00B73B9D /* EzSubTracker.xcdatamodeld in Sources */,
+				04F5700E2D10471700B73B9D /* EzSubTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F5701B2D10471B00B73B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F570242D10471B00B73B9D /* EzSubTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F570252D10471B00B73B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F5702E2D10471B00B73B9D /* EzSubTrackerUITests.swift in Sources */,
+				04F570302D10471B00B73B9D /* EzSubTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F570212D10471B00B73B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F570092D10471700B73B9D /* EzSubTracker */;
+			targetProxy = 04F570202D10471B00B73B9D /* PBXContainerItemProxy */;
+		};
+		04F5702B2D10471B00B73B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F570092D10471700B73B9D /* EzSubTracker */;
+			targetProxy = 04F5702A2D10471B00B73B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F570312D10471B00B73B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F570322D10471B00B73B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F570342D10471B00B73B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzSubTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = R46ZH534L9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chidera.EzSubTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F570352D10471B00B73B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EzSubTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = R46ZH534L9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chidera.EzSubTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F570372D10471B00B73B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R46ZH534L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chidera.EzSubTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzSubTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EzSubTracker";
+			};
+			name = Debug;
+		};
+		04F570382D10471B00B73B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R46ZH534L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chidera.EzSubTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzSubTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EzSubTracker";
+			};
+			name = Release;
+		};
+		04F5703A2D10471B00B73B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R46ZH534L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chidera.EzSubTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzSubTracker;
+			};
+			name = Debug;
+		};
+		04F5703B2D10471B00B73B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R46ZH534L9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Chidera.EzSubTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzSubTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F570052D10471700B73B9D /* Build configuration list for PBXProject "EzSubTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F570312D10471B00B73B9D /* Debug */,
+				04F570322D10471B00B73B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F570332D10471B00B73B9D /* Build configuration list for PBXNativeTarget "EzSubTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F570342D10471B00B73B9D /* Debug */,
+				04F570352D10471B00B73B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F570362D10471B00B73B9D /* Build configuration list for PBXNativeTarget "EzSubTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F570372D10471B00B73B9D /* Debug */,
+				04F570382D10471B00B73B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F570392D10471B00B73B9D /* Build configuration list for PBXNativeTarget "EzSubTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F5703A2D10471B00B73B9D /* Debug */,
+				04F5703B2D10471B00B73B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04F570182D10471A00B73B9D /* EzSubTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F570192D10471A00B73B9D /* EzSubTracker.xcdatamodel */,
+			);
+			currentVersion = 04F570192D10471A00B73B9D /* EzSubTracker.xcdatamodel */;
+			path = EzSubTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04F570022D10471700B73B9D /* Project object */;
+}
